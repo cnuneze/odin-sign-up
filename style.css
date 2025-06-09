@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+}
+
+.container > aside {
+    background-color: aliceblue;
+    flex: 1;
+}
+
+.main-content {
+    background-color: aquamarine;
+    flex: 2;
+}
