@@ -5,7 +5,8 @@
 }
 
 .container > aside {
-    background-color: aliceblue;
+    background: url("assets/background.jpg");
+    background-size: 100vh;
     flex: 1;
 }
 
