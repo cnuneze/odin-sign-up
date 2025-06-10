@@ -1,15 +1,38 @@
+body {
+    font-size: 12px;
+}
+
 .container {
     height: 100vh;
     display: flex;
     background-color: aqua;
 }
 
+/* Side image */
 .container > aside {
-    background: url("assets/background.jpg");
+    background: url("./assets/background.jpg");
     background-size: 100vh;
     flex: 1;
 }
 
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 150px;
+    background-color: #0006;
+    color: #fff;
+}
+
+.container-logo p {
+    font-size: 3rem;
+}
+
+.container-logo .logo {
+    height: 80%;
+}
+/* Form section */
 .main-content {
     background-color: aquamarine;
     flex: 2;
