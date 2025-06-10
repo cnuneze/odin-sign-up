@@ -13,6 +13,10 @@ body {
     background: url("./assets/background.jpg");
     background-size: 100vh;
     flex: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container-logo {
@@ -22,7 +26,6 @@ body {
     margin-top: 200px;
     height: 150px;
     background-color: #0006;
-    color: #fff;
 }
 
 .container-logo p {
@@ -32,6 +35,17 @@ body {
 .container-logo .logo {
     height: 80%;
 }
+
+.image-credits {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;   
+}
+
+.image-credits a {
+    color: #fff;
+}
+
 /* Form section */
 .main-content {
     background-color: aquamarine;
