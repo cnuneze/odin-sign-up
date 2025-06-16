@@ -1,4 +1,15 @@
+/* Fonts */
+@font-face {
+    font-family: 'norsebold';
+    src: url('./fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('./fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
@@ -29,7 +40,8 @@ body {
 }
 
 .container-logo p {
-    font-size: 3rem;
+    font-family: 'norsebold';
+    font-size: 6rem;
 }
 
 .container-logo .logo {
