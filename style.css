@@ -62,4 +62,18 @@ body {
 .main-content {
     background-color: aquamarine;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-head {
+    flex: 1;
+}
+
+.form-body {
+    height: 30%;
+}
+
+.form-action {
+    flex: 1;
 }
