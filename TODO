@@ -1,0 +1,19 @@
+- Agregar fuente
+- estructura base 
+    - lado de formulario
+        - area header
+        - area de campos del formulario
+            - crear form
+            - estilar validaciones
+            - estilar sombras de cajas
+        - area inferior (boton enviar)
+            - estilar boton
+            - estilar texto inferior
+
+
+- agregar creditos de imagen
+    Foto de <a href="https://unsplash.com/es/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> en <a href="https://unsplash.com/es/fotos/planta-de-hoja-verde-en-fotografia-de-primer-plano-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- Pendientes
+    - revisar poscicion y tamaño de la imagen de fondo al encoger la ventana
+    - estilos de enlaces
