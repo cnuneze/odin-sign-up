@@ -1,7 +1,8 @@
-- Agregar fuente
 - estructura base 
     - lado de formulario
         - area header
+            - agregar texto
+                - ubicar y estilar texto
         - area de campos del formulario
             - crear form
             - estilar validaciones
