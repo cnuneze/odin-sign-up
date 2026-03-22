@@ -61,7 +61,7 @@ html {
 
 .image-credits {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.75rem;
   margin-bottom: 10px;
 }
 
@@ -98,7 +98,42 @@ html {
 }
 
 .form-body {
-  height: 30%;
+  background-color: #fff;
+  padding: 24px;
+  padding-top: 18px;
+}
+
+.form-body h1 {
+  margin-bottom: 24px;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 120px;
+}
+
+.form-input {
+  width: 50%;
+  margin-bottom: 18px;
+}
+
+.form-input label {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.form-input > * {
+  display: block;
+}
+
+.form-input input {
+  height: 28px;
+  border-color: #e5e7eb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f9fafb;
 }
 
 .form-action {
