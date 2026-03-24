@@ -90,6 +90,8 @@ html {
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 160px;
+  box-shadow: inset 0px -3px 6px -8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0px -3px 6px -8px rgba(0,0,0,0.3);
 }
 
 .form-head p {
@@ -138,4 +140,7 @@ html {
 
 .form-action {
   flex: 1;
+  background-color: #f9fafb;
+  box-shadow: inset 0px 8px 15px -8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0px 8px 15px -8px rgba(0,0,0,0.3);
 }
