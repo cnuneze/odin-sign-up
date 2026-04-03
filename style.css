@@ -74,6 +74,11 @@ html {
   color: #fff;
 }
 
+/* Main content */
+.main-content > section {
+  padding-left: 40px;
+}
+
 /* Form section */
 .main-content {
   font-family: "Inter";
@@ -100,14 +105,14 @@ html {
 }
 
 .form-head p {
-  margin-top: 30px;
+  margin-top: 40px;
   line-height: 1.1;
 }
 
 .form-body {
   background-color: #fff;
-  padding: 24px;
   padding-top: 18px;
+  padding-bottom: 24px;
 }
 
 .form-body h1 {
