@@ -148,6 +148,13 @@ html {
   background-color: #f9fafb;
 }
 
+.form-input input:focus {
+  border-color: blue;
+  outline: none;
+  box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.2);
+}
+
 .form-input input:user-invalid {
   border-color: red;
 }
