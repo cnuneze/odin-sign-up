@@ -148,6 +148,10 @@ html {
   background-color: #f9fafb;
 }
 
+.form-input input:user-invalid {
+  border-color: red;
+}
+
 /* Form section */
 .form-action {
   flex: 1;
